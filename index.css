@@ -1,0 +1,90 @@
+header{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    padding: 270px;
+    background-image:url(header.jpg);
+    }
+    body{
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+  nav ul{
+    box-sizing: border-box;
+    background:black;
+     height: 80px;
+     width: 100%;
+    padding: 0px;
+    margin: 0 5px;
+    line-height: 80px;
+    margin-inline-end: 20px;
+    list-style: none;
+     text-align: center;
+  }
+  nav li{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+  }
+  nav li:hover{
+    background-color:blue;
+    border-radius: 3px;
+}
+nav li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-decoration: none;
+  color:white;
+  }
+  h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  div.azerty{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    line-height: 30px;
+  }
+  .azerty{
+    display: inline-block;
+    vertical-align: auto;
+    float: left;
+    border-radius: 4px;
+  }
+  img{
+    float: center;
+    text-align: center;
+    width: 70%;
+    line-height: 30px;
+  }
+  
+  .azerty:hover{
+    background-color:transparent;
+}
+.azerty a{
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color:rgb(147, 164, 184);
+  border-radius: 4px;
+  font-weight: 200;
+  color: black;
+}
+
+img{
+  float: initial;
+  width: 200px;
+  border-radius: 0px;
+  box-shadow: 10px 10px 5px black;
+}
+
