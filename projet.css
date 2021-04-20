@@ -1,7 +1,8 @@
 header{
-
-    background:url("saloum2.jpg") no-repeat; 
-
+    background-image: url(saloum4.jpg);
+    
+    background-repeat: no-repeat;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
     background-size: cover;
